@@ -134,6 +134,7 @@ import com.android.settings.carbon.*;
 import com.android.settings.slim.*;
 import com.android.settings.slim.dslv.*;
 import com.android.settings.slim.fragments.*;
+import com.android.settings.slim.themes.*;
 import com.android.settings.slim.util.*;
 
 import com.carbon.fibers.*;
@@ -288,6 +289,8 @@ public class SettingsActivity extends Activity
             QuickTileFragment.class.getName(),
             ShortcutPickerHelper.class.getName(),
             SimpleFloatViewManager.class.getName(),
+            ThemeEnabler.class.getName(),
+            ThemeSettings.class.getName(),
             WirelessSettings.class.getName(),
             WifiSettings.class.getName(),
             AdvancedWifiSettings.class.getName(),

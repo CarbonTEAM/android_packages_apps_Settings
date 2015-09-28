@@ -395,8 +395,21 @@ limitations under the License.
         <item>@string/shortcut_action_media_next</item>
         <item>@string/shortcut_action_media_play_pause</item>
         <item>@string/shortcut_action_wake_device</item>
+        <item>@string/shortcut_action_theme_switch</item>
     </string-array>
 
+    <!-- Themes -->
+    <string-array name="theme_auto_mode_entries">
+	<item>@string/theme_auto_mode_off</item>
+	<item>@string/theme_auto_mode_lightsensor</item>
+	<item>@string/theme_auto_mode_twilight</item>
+    </string-array>
+
+    <string-array name="theme_auto_mode_values" translatable="false">
+	<item>0</item>
+	<item>1</item>
+	<item>2</item>
+    </string-array>
     <string-array name="shortcut_action_launcher_values" translatable="false">
         <item>**home**</item>
         <item>**back**</item>
@@ -423,6 +436,7 @@ limitations under the License.
         <item>**theme_switch**</item>
         <item>**pie**</item>
         <item>**nav_bar**</item>
+        <item>**theme_switch**</item>
         <item>**camera**</item>
         <item>**media_previous**</item>
         <item>**media_next**</item>
