@@ -2446,6 +2446,13 @@
             android:name=".cyanogenmod.LtoService">
         </service>
 
+        <receiver android:name=".cyanogenmod.ShortcutCleanupReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package"></data>
+            </intent-filter>
+        </receiver>
+
         <!-- Carbon Application Methods -->
         <activity android:name="com.carbon.fibers.CarbonSettingsActivity" />
         <activity android:name=".carbon.CarbonAboutMe" />
